@@ -16,6 +16,6 @@ class Entity(val id: String) {
 }
 
 fun main() {
-    val entity = Entity("id")
+    val entity = Entity.create()
     println(entity)
 }
